@@ -1,0 +1,123 @@
+.page_header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+h1.page_title {
+    font-size: 27px;
+    font-weight: 700;
+}
+.form-group.form-group-phone {
+    float: left;
+    width: 48%;
+}
+label {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group.form-group-password {
+    float: right;
+    width: 48%;
+}
+button.btn.btn_submit {
+    background: #1dd38f;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+a.forgot-password-link {
+    color: #2aa0d6;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px
+}
+a.forgot-password-links {
+    color: #2aa0d6;
+    display: inline-block;
+    margin-top: 20px;
+    float: right;
+    font-size: 13px;
+}
+p.wrapper {
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.sc-fb {
+	background: #3b5998;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+}
+.sc-gg {
+	background: #dd4b39;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+}
+.register_recommend {
+    padding: 30px 0 20px;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+.lin {
+	color: #2aa0d6;
+    font-weight: 700;
+}
+/*responsive*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .btn_wrapper {
+    padding-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .sc-fb {
+    background: #3b5998;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    }
+    .sc-gg {
+    background: #dd4b39;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    }
+    .btn_wrapper {
+    padding-bottom: 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .sc-gplus {
+    padding-bottom: 20px;
+    }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+    .sc-gplus {
+    padding-bottom: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .sc-gplus {
+    padding-bottom: 20px;
+    }
+}

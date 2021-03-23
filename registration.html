@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+		<!-- menu -->
+		<div class="row">
+			<div class="col-md-12 navbarTop">
+				<div class="user-header">
+					<a rel="" class="link user_login_link" href="login.html">Đăng nhập</a>
+    				<a rel="" class="link user_register_link" href="registration.html"> Đăng ký</a>				
+    				<a rel="" class="link user_post_link" href=""> Đăng tin mới</a>
+    			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 header">
+				<img class="logo" src="img/logo.png">
+			</div>
+			<div class="col-md-9">
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 navbar">
+				<div class="container clearfix">
+					<ul id="menu-main-menu" class="container-menu">
+						<li class="navbar_item clearfix menu-home current-menu-item">
+							<a href="index.html">
+								<span>Trang chủ</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="post.html">
+								<span>Cho thuê phòng trọ</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="post_1.html">
+								<span>Nhà cho thuê</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="post_2.html">
+								<span>Cho thuê căn hộ</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="post_3.html">
+								<span>Cho thuê mặt bằng</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="post_4.html">
+								<span>Tìm người ở ghép</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="">
+								<span>Hướng dẫn</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix ">
+							<a href="">
+								<span>Nạp tiền</span>
+							</a>
+						</li>
+						<li class="navbar_item clearfix">
+							<a href="">
+								<span>Bảng giá dịch vụ</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<label for="nav-mobile-input" class="nav__bars-btn">
+					<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
+					</svg>
+				</label>
+				<label for="nav-mobile-input"></label>
+				<input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+				<label for="nav-mobile-input" class="nav__overlay"></label>
+				<div class="nav__mobile">
+					<label for="nav-mobile-input" class="nav__mobile-close">
+						<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/>
+						</svg>
+					</label>
+					<ul class="nav__mobile-list">
+						<li class="navbar_mobile clearfix menu-home current-menu-item">
+							<a href="index.html">
+								<span>Trang chủ</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="post.html">
+								<span>Cho thuê phòng trọ</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix ">
+							<a href="post_1.html">
+								<span>Nhà cho thuê</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="post_2.html">
+								<span>Cho thuê căn hộ</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="post_3.html">
+								<span>Cho thuê mặt bằng</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="post_4.html">
+								<span>Tìm người ở ghép</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="">
+								<span>Hướng dẫn</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="">
+								<span>Nạp tiền</span>
+							</a>
+						</li>
+						<li class="navbar_mobile clearfix">
+							<a href="">
+								<span>Bảng giá dịch vụ</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end menu -->
+		<!--  -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page_header">
+					<h1 class="page_title">Tạo tài khoản trên PhongTro123.com</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 left">
+				<div class="form_wrapper">
+					<p class="wrapper">Bạn có thể dùng số điện thoại để đăng nhập</p>
+					<div class="form-group form-group-fullname">
+						<label for="inputFullName">Họ tên</label>
+						<input type="text" class="form-control" min-length="3" id="inputFullName" name="fullname" required="" data-msg="Không được phép để trống">
+					</div>
+					<div class="form-group form-group-phone">
+						<label for="inputPhone">Số điện thoại</label>
+						<input type="text" class="form-control" min-length="10" max-length="11" id="inputPhone" name="phone" required="" data-msg="Không được phép để trống">
+					</div>
+					<div class="form-group form-group-password">
+						<label for="password">Tạo mật khẩu</label>
+						<input type="password" class="form-control" min-length="6" id="password" name="password" required="" data-msg="Không được phép để trống">
+					</div>
+					<div class="btn_wrapper">
+						<button class="btn btn_submit">Đăng ký tài khoảng</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<div class="right">
+					<p class="wrapper">Đăng nhập bằng Facebook hoặc Google</p>
+					<div class="social-connect-container">
+						<div class="full-width sc-buttons">
+							<div class="sc-fbs">
+								<button class="sc-fb">Đăng nhập bằng Facebook</button>
+							</div>
+							<div class="sc-gplus">
+								<button class="sc-gg">Đăng nhập bằng Google+</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end -->
+		<!-- footer -->
+		<div class="row">
+			<div class="support_box">
+				<div class="container clearfix">
+					<div class="header">Hỗ trợ khách hàng</div>
+					<div class="content">
+						<div class="list_support clearfix">
+							<div class="item clearfix">
+								<a href="">
+									<img src="https://phongtro123.com/images/icon-credit-card.svg" width="30" height="30">
+									<div class="name">Hỗ trợ thanh toán</div>
+									<div class="value">0917686101</div>
+								</a>
+							</div>
+							<div class="item clearfix">
+								<a href="">
+									<img src="https://phongtro123.com/images/icon-phone-green.svg" width="30" height="30">
+									<div class="name">Trợ giúp đăng tin</div>
+									<div class="value">0917686101</div>
+								</a>
+							</div>
+							<div class="item clearfix">
+								<a href="">
+									<img src="https://phongtro123.com/images/icon-phone-green.svg" width="30" height="30">
+									<div class="name">Trợ giúp đăng tin</div>
+									<div class="value">0902657123</div>
+								</a>
+							</div>
+							<div class="item clearfix">
+								<a href="">
+									<img src="https://phongtro123.com/images/icon_zalo.svg" width="30" height="30" style="border: 1px solid #00a1dc;border-radius: 50%;">
+									<div class="name">Zalo</div>
+									<div class="value">0917686101</div>
+								</a>
+							</div>
+							<div class="item clearfix">
+								<a href="">
+									<img src="https://phongtro123.com/images/icon_viber.svg" width="30" height="30">
+									<div class="name">Viber</div>
+									<div class="value">0917686101</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer clearfix">
+			<div class="col-md-3 footer_row clearfix">
+				<div class="footer_col">
+					<div class="footer_col_header">
+						<img class="logo-1" src="img/logo.png">
+					</div>
+					<div class="footer_col_body">
+						<p class="content-body">Đứng đầu các từ khóa liên quan đến<strong>phòng trọ cho thuê</strong>,<strong>nhà cho thuê</strong>,<strong>tìm người ở ghép</strong></p>
+						<p class="content-body"><strong>70.000+</strong> tin bài trên hệ thống, và tiếp tục tăng</p>
+						<p class="content-body"><strong>300.000+</strong> khách truy cập và <strong>hơn 2 triệu</strong> lượt xem mỗi tháng</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 footer_row clearfix">
+				<div class="footer_col">
+					<div class="footer_col_header">Về PHONGTRO123.COM</div>
+					<div class="footer_col_body">
+						<ul class="footer_menu">
+							<li>
+								<a href="">Trang chủ</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Giới thiệu</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Blog</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Quy chế hoạt động</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Quy định sử dụng</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Chính sách bảo mật</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Liên hệ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 footer_row clearfix">
+				<div class="footer_col">
+					<div class="footer_col_header">Hỗ trợ khách hàng</div>
+					<div class="footer_col_body">
+						<ul class="footer_menu">
+							<li>
+								<a rel="nofollow" href="">Câu hỏi thường gặp</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Hướng dẫn đăng tin</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Bảng giá dịch vụ</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Quy định đăng tin</a>
+							</li>
+							<li>
+								<a rel="nofollow" href="">Chính sách giải quyết khiếu nại</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 footer_row clearfix">
+				<div class="footer_col">
+					<div class="footer_col_header">Liên hệ với chúng tôi</div>
+					<div class="footer_col_body mb30">
+						<img class="img-footer" src="https://phongtro123.com/images/icon_facebook.svg" width="30">
+						<img class="img-footer" src="https://phongtro123.com/images/icon_youtube.svg" width="30">			
+						<img class="img-footer" src="https://phongtro123.com/images/icon_zalo.svg" width="30">
+						<img class="img-footer" src="https://phongtro123.com/images/icon_viber.svg" width="30">
+						<img class="img-footer" src="https://phongtro123.com/images/icon_twitter.svg" width="30">
+					</div>
+					<div class="footer_col_header">Phương thức thanh toán</div>
+					<div class="footer_col_body">
+						<span class="bds_icon icon_visa"><i class="fab fa-cc-visa"></i></span>
+						<span class="bds_icon icon_mastercard"><i class="fab fa-cc-mastercard"></i></span>
+						<span class="bds_icon icon_jcb"><i class="fab fa-cc-jcb"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 footer-bottom">
+				<div class="w980">
+					<p class="company_name">
+						<strong>CÔNG TY TNHH LBKCORP</strong>
+					</p>
+					<p>
+						<strong>Tổng đài CSKH: 0917.686.101</strong>
+					</p>
+					<p>Copyright © 2015 - 2019 Phongtro123.com</p>
+					<p>Email: cskh.phongtro123@gmail.com | lienhe.phongtro123@gmail.com</p>
+					<p>Địa chỉ: LE-4.07, Toà nhà Lexington Residence, Số 67 Mai Chí Thọ, Phường An Phú, Quận 2, Tp. Hồ Chí Minh.</p>
+					<p>Giấy phép đăng ký kinh doanh số 0313588502 do Sở kế hoạch và Đầu tư thành phố Hồ Chí Minh cấp ngày 30 tháng 3 năm 2017.</p>
+				</div>
+			</div>
+		</div>
+		<!-- end -->
+	</div>
+	<!-- end container -->
+</body>
+</html>
